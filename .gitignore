@@ -1,0 +1,5 @@
+/database/
+/mlruns/
+backend/models/
+backend/inference/__pycache__/
+backend/data_preparation/__pycache__/
