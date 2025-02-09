@@ -1,0 +1,10 @@
+# Exclude virtual environments, caches, etc.
+mlruns/
+__pycache__/
+*.pyc
+
+
+# Exclude specific directories
+models/*
+.backend/
+inference/__pycache__/
