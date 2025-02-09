@@ -3,3 +3,5 @@
 backend/models/
 backend/inference/__pycache__/
 backend/data_preparation/__pycache__/
+/venv
+.env
