@@ -1,4 +1,3 @@
-The next steps will involve testing the orchestration part, implementing monitoring, and enabling deployments across providers like AWS or GCP—something we couldn't complete due to time  and resources constraints.
 # MLops Project
 The objective of this project was to identify a problem to work on and implement MLOps techniques to build an end-to-end solution, from model training to deployment. 🚀
 
