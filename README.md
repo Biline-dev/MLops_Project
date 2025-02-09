@@ -9,6 +9,18 @@ The objective of this project was to identify a problem to work on and implement
 - [How to run](#how-to-run)
 - [Challenges Encountered](#challenges-encountered)
 
+## **Project Focus**
+
+It is important to note that this project is primarily an **MLOps project** rather than a model performance-driven study. The emphasis is on:  
+
+- Data collection and structuring
+- Experiment Tracking with MLflow
+- Model training pipeline automation  
+- Deployment and reproducibility  
+
+Accuracy, metrics, and model performance optimization were **not** the main objectives. Instead, the goal was to explore **workflow automation**.
+
+
 ## Use Case : Brain MRI Analysis 🧠
 
 <p align="center">
