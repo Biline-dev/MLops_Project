@@ -9,9 +9,9 @@ from tensorflow.keras import layers, models, optimizers
 from tensorflow.keras.callbacks import EarlyStopping
 
 
-from train.data_preparation.data_loading_locally import load_local_images_and_preprocess
-from train.data_preparation.data_loading_s3 import load_images_from_source
-from train.data_preparation.data_processing import preprocess_and_split_data
+from training.data_preparation.data_loading_locally import load_local_images_and_preprocess
+from training.data_preparation.data_loading_s3 import load_images_from_source
+from training.data_preparation.data_processing import preprocess_and_split_data
 
 # Ensure the project root is accessible
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
