@@ -95,18 +95,18 @@ And here is an example in action:
 
 ## 🚀 How to Run the Project  
 
-### 1️⃣ Clone the Repository  
+#### 1️⃣ Clone the Repository  
 ```bash
 git clone git@github.com:Biline-dev/MLops_Project.git
 cd MLops_Project
 ```  
 
-### 2️⃣ Start the Application  
+#### 2️⃣ Start the Application  
 ```bash
 docker-compose up  # Builds and runs the backend and frontend containers
 ```  
 
-
+OR 
 ### Manually set up
 
 Follow these steps to manually set up the environment for both the **backend** and **frontend** without Docker.
