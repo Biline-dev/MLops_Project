@@ -107,7 +107,7 @@ docker-compose up  # Builds and runs the backend and frontend containers
 ```  
 
 OR 
-### Manually set up
+### Manually set up (Linux/wsl)
 
 Follow these steps to manually set up the environment for both the **backend** and **frontend** without Docker.
 
