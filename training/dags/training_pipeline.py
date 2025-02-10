@@ -11,7 +11,7 @@ from mlflow.tracking import MlflowClient
 from utils import download_files_from_s3
 from backend.data_preparation.data_loading import load_and_preprocess_images
 from backend.data_preparation.data_processing import preprocess_and_split_data
-from backend.train.model_registry import *
+from backend.training.train.model_registry import *
 
 # Paramètres par défaut pour le DAG
 default_args = {

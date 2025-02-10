@@ -106,10 +106,63 @@ cd MLops_Project
 docker-compose up  # Builds and runs the backend and frontend containers
 ```  
 
+
+### Debug
+
+If `docker-compose up` fails, follow these steps to manually set up the environment for both the **backend** and **frontend** without Docker.
+
+#### Open Two Terminals  
+You'll need to run the backend and frontend separately.
+
+---
+
+#### Backend Setup  
+
+#### Create and Activate a Virtual Environment  
+```bash
+cd backend/
+python3 -m venv venv
+source venv/bin/activate
+```
+
+#### Install Dependencies  
+```bash
+pip install -r requirements.txt
+```
+
+#### Run Backend  
+```bash
+python python.py
+```
+
+
+#### Frontend Setup  
+
+#### Create and Activate a Virtual Environment  
+Open a second terminal and run:
+```bash
+cd frontend/
+python3 -m venv venv
+source venv/bin/activate
+```
+
+#### Install Dependencies  
+```bash
+pip install -r requirements.txt
+```
+
+#### Run Frontend  
+```bash
+python interface.py
+```
+
+
 ### ⚠️ Important Notes  
-- Building the images and starting the backend may take some time.  
+- Building the images or installing dependencies may take some time.  
 - We couldn't upload the model to GitHub or deploy MLflow to retrieve the latest registered model as we did locally.  
 - Instead, the model will be downloaded from Google Drive, which might take a few minutes.  
+
+
 
 ### 🌐 Access the Application  
 Once the setup is complete, open your browser and go to:  
