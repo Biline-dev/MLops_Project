@@ -3,4 +3,5 @@ backend/inference/__pycache__/
 training/database
 training/data_preparation/__pycache__/
 backend/.backend/
-
+/venv
+.env

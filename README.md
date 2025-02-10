@@ -1,4 +1,3 @@
-The next steps will involve testing the orchestration part, implementing monitoring, and enabling deployments across providers like AWS or GCP—something we couldn't complete due to time  and resources constraints.
 # MLops Project
 The objective of this project was to identify a problem to work on and implement MLOps techniques to build an end-to-end solution, from model training to deployment. 🚀
 
@@ -9,6 +8,18 @@ The objective of this project was to identify a problem to work on and implement
 - [User Interface](#user_interfac)
 - [How to run](#how-to-run)
 - [Challenges Encountered](#challenges-encountered)
+
+## **Project Focus**
+
+It is important to note that this project is primarily an **MLOps project** rather than a model performance-driven study. The emphasis is on:  
+
+- Data collection and structuring
+- Experiment Tracking with MLflow
+- Model training pipeline automation  
+- Deployment and reproducibility  
+
+Accuracy, metrics, and model performance optimization were **not** the main objectives. Instead, the goal was to explore **workflow automation**.
+
 
 ## Use Case : Brain MRI Analysis 🧠
 
