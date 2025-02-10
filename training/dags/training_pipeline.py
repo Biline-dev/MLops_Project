@@ -9,9 +9,12 @@ import mlflow.keras
 from mlflow.entities import ViewType
 from mlflow.tracking import MlflowClient
 from utils import download_files_from_s3
-from backend.data_preparation.data_loading import load_and_preprocess_images
-from backend.data_preparation.data_processing import preprocess_and_split_data
-from backend.training.train.model_registry import *
+from training.data_preparation.data_loading import load_and_preprocess_images
+from training.data_preparation.data_processing import preprocess_and_split_data
+from training.train.model_registry import *
+# Ensure the project root is accessible
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(project_root)
 
 # Paramètres par défaut pour le DAG
 default_args = {

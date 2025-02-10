@@ -17,10 +17,14 @@ from inference.google_drive_config import download_model_from_drive
 #sys.path.append(project_root)
 
 
-# Load the latest model
 new_model = load_latest_model()
 if new_model is None:
     output_file = 'models/my_model.keras'
+    # Si le chemin n'existe pas, on le crée
+    if not os.path.exists(output_file):
+        # Create the folder
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
+        
     new_model = download_model_from_drive(output_file)
 
 # Map class index to label
