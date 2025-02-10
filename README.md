@@ -107,9 +107,9 @@ docker-compose up  # Builds and runs the backend and frontend containers
 ```  
 
 
-### Debug
+### Manually set up
 
-If `docker-compose up` fails, follow these steps to manually set up the environment for both the **backend** and **frontend** without Docker.
+Follow these steps to manually set up the environment for both the **backend** and **frontend** without Docker.
 
 #### Open Two Terminals  
 You'll need to run the backend and frontend separately.
