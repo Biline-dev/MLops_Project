@@ -17,9 +17,9 @@ from tensorflow.keras.callbacks import EarlyStopping
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(project_root)
 
-from mlops_project.backend.data_preparation.data_loading_locally import load_local_images_and_preprocess
-from mlops_project.backend.data_preparation.data_loading_s3 import load_images_from_source
-from data_preparation.data_processing import preprocess_and_split_data
+from training.data_preparation.data_loading_locally import load_local_images_and_preprocess
+from training.data_preparation.data_loading_s3 import load_images_from_source
+from training.data_preparation.data_processing import preprocess_and_split_data
 
 
 
