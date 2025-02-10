@@ -132,7 +132,7 @@ pip install -r requirements.txt
 
 #### Run Backend  
 ```bash
-python python.py
+python main.py
 ```
 
 
